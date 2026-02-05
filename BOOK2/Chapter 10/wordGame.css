@@ -1,0 +1,50 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: lightseagreen;
+}
+#inputWords {
+    float:left;
+    width: 50%;
+    color:rgb(12, 12, 12);
+    
+    ;
+}
+ol {
+    list-style-type: none;
+    padding: 10%;
+    margin: 0px;
+}
+li {
+    line-height: 5%;
+    text-transform: lowercase;
+    margin-top: 6%;
+}
+input[type=text] {
+    border-width: 5px;
+    border-color: #b41818;
+    margin-bottom: 10px;
+    text-align: left;
+   
+}
+#buttonDiv {
+    text-align: left;
+}
+#replaceButton {
+    margin-top: 30px;
+    width: 200px;
+    color: red;
+}
+#story {
+    margin-top: 12px;
+    width: 45%;
+    border: 1px dashed blue;
+    padding: 8px;
+    float: left;
+    background-color: blue;
+    color: white;
+}
+.replacement {
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
